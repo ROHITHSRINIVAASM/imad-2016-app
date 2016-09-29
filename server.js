@@ -7,17 +7,17 @@ app.use(morgan('combined'));
 
 var articles=
 { 
- articleone:{
+ 'articleone':{
  title:"Article one",
  content:"this my first article",
  date:"24 sep 16"
 },
- articletwo:{
+ 'articletwo':{
  title:"Article two",
  content:"this my second article",
  date:"25 sep 16"
 },
- articlethree:{
+ 'articlethree':{
  title:"Article three",
  content:"this my third article",
  date:"26 sep 16"
