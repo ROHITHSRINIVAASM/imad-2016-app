@@ -9,7 +9,7 @@ var articles=
 { 
  'articleone':{
  title:"Article one",
- content:'Part 1 of the text develops the concepts that are needed for the discussion ofequilibria in chemistry. Equilibria include physical change, such as fusion an vaporization, and chemical change, including electrochemistry. The discussion isin terms of thermodynamics, and particularly in terms of enthalpy and entropy.We see that we can obtain a unified view of equilibrium and the direction ofspontaneous change in terms of the chemical potentials of substances. The chapters in Part 1 deal with the bulk properties of matter; those of Part 2 willshow how these properties stem from the behaviour of individual atoms.'
+ content:'Part 1 of the text develops the concepts that are needed for the discussion ofequilibria in chemistry. Equilibria include physical change, such as fusion an vaporization, and chemical change, including electrochemistry. The discussion isin terms of thermodynamics, and particularly in terms of enthalpy and entropy.We see that we can obtain a unified view of equilibrium and the direction of spontaneous change in terms of the chemical potentials of substances. The chapters in Part 1 deal with the bulk properties of matter; those of Part 2 willshow how these properties stem from the behaviour of individual atoms.'
  ,
  date:"24 sep 16"
 },
