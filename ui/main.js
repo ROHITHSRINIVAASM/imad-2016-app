@@ -12,5 +12,5 @@ button.onclick=function(){
          }
      };
 requestopen('GET','http://rohithsrinivaasm.imad.hasura-app.io/counter',true);
-request.send(NULL);
+request.send(null);
 };
