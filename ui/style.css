@@ -20,6 +20,13 @@ body {
     height: 200px;
 }
 .container{
+    color: red;
+    margin:0 auto;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 200px;
+}
+.container1{
     font-size:50px;
     color: red;
     margin:0 auto;
