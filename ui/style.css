@@ -20,6 +20,7 @@ body {
     height: 200px;
 }
 .container{
+    font-size:50px;
     color: red;
     margin:0 auto;
     padding-top: 100px;
