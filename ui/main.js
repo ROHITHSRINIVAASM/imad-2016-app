@@ -11,6 +11,6 @@ button.onclick=function(){
             span.innerHTML=counter.toString();}
          }
      };
-requestopen('GET','http://rohithsrinivaasm.imad.hasura-app.io/counter');
+requestopen('GET','http://rohithsrinivaasm.imad.hasura-app.io/counter',true);
 request.send(NULL);
 };
