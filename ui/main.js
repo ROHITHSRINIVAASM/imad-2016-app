@@ -17,7 +17,7 @@ request.open('GET','http://rohithsrinivaasm.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 
-};
+
 
 var submit=document.getElementById('sumbit_btn');
 submit.onclick=function(){
