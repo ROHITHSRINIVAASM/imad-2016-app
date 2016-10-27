@@ -87,7 +87,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 var names=[];
-app.get('/sumbit/:name',function(req,res){
+app.get('/sumbit/:names',function(req,res){
    var name=req.params.names;
    names.push(name);
    res.send(JSON.stringify(names));
