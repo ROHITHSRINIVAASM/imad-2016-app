@@ -18,7 +18,7 @@ request.send(null);
 };
 var nameInput=document.getElementById('name');
 var name=nameInput.value;
-var submit=document.getElementById('sumbit-btn');
+var submit=document.getElementById('sumbit_btn');
 submit.onclick=function(){
     var names=['kumaresh ramakrishnan','lokesh kumar','rishhanth maanav'];
     var list='';
