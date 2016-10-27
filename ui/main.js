@@ -22,10 +22,10 @@ var submit=document.getElementById('sumbit_btn');
 submit.onclick=function(){
     var names=['kumaresh ramakrishnan','lokesh kumar','rishhanth maanav'];
     var list='';
-    for(var i=0;i<names.length;i++)
+    for(var i=0;i<names.length;i++){
     list='<li>' + names[i] + '</li>';
     
-};
+}
 var ul=document.getElementById('namelist');
 ul.innerHTML = list;
 };
