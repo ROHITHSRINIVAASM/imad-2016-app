@@ -36,7 +36,6 @@ submit.onclick=function(){
      };
 request.open('GET','http://rohithsrinivaasm.imad.hasura-app.io/sumbit?name='+name,true);
 request.send(null);
-    var names=[];
     var list='';
     for(var i=0;i<names.length;i++){
     list+='<li>' + names[i] + '</li>';
