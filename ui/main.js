@@ -30,17 +30,16 @@ submit.onclick=function(){
          {if(request.status===200)
            { var names=request.responseText;
             names=JSON.parse(names);
-               
-           }
-         }
-     };
-request.open('GET','http://rohithsrinivaasm.imad.hasura-app.io/sumbit?name='+name,true);
-request.send(null);
-    var list='';
-    for(var i=0;i<names.length;i++){
-    list+='<li>' + names[i] + '</li>';
+            var list='';
+            for(var i=0;i<names.length;i++){
+            list+='<li>' + names[i] + '</li>';
     
 }
 var ul=document.getElementById('namelist');
 ul.innerHTML = list;
+        }
+    }
+};
+request.open('GET','http://rohithsrinivaasm.imad.hasura-app.io/sumbit?name='+name,true);
+request.send(null);
 };
